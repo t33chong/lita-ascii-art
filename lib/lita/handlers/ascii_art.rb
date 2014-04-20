@@ -14,10 +14,6 @@ module Lita
           s += @@art.asciify(c)
         end
         response.reply s
-        #puts response.matches.first
-        #puts @@art.asciify(response.matches.first)
-        #puts %Q[#{@@art.asciify(response.matches.first)}]
-        #response.reply @@art.asciify(response.matches.first)
       end
     end
 
