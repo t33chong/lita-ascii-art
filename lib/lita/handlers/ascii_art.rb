@@ -9,6 +9,8 @@ module Lita
         @@art = Artii::Base.new :font => 'standard'
 
       def ascii_from_text(response)
+        puts response.matches.first
+        puts @@art.asciify(response.matches.first)
         response.reply @@art.asciify(response.matches.first)
       end
     end
