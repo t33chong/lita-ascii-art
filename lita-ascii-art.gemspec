@@ -3,8 +3,8 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.1"
   spec.authors       = ["Tristan Chong"]
   spec.email         = ["tristanchong@gmail.com"]
-  spec.description   = %q{A Lita handler that generates ASCII art from text.}
-  spec.summary       = %q{A Lita handler that generates ASCII art from text.}
+  spec.description   = %q{A Lita handler that generates ASCII art.}
+  spec.summary       = %q{A Lita handler that generates ASCII art.}
   spec.homepage      = "https://github.com/tristaneuan/lita-ascii-art"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
