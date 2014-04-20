@@ -6,7 +6,7 @@ module Lita
       route(/^ascii\s+(.*)/i, :ascii_from_text, command: true, help: {
         'ascii TEXT' => 'Generate ASCII art from TEXT.'})
 
-        @@art = Artii::Base.new :font => 'standard'
+        @@art = Artii::Base.new :font => 'big'
 
       def ascii_from_text(response)
         puts response.matches.first
