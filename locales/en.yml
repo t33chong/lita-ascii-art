@@ -2,3 +2,6 @@ en:
   lita:
     handlers:
       ascii_art:
+        help:
+          ascii_key: "ascii TEXT"
+          ascii_value: "Generate ASCII art from TEXT."
