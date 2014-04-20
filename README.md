@@ -1,6 +1,8 @@
 # lita-ascii-art
 
 TODO: Add a description of the plugin.
+**lita-ascii-art** is a handler for [Lita](https://github.com/jimmycuadra/lita) that generates ASCII art from text.
+
 
 ## Installation
 
@@ -10,13 +12,21 @@ Add lita-ascii-art to your Lita instance's Gemfile:
 gem "lita-ascii-art"
 ```
 
-## Configuration
-
-TODO: Describe any configuration attributes the plugin exposes.
-
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+To generate ASCII art:
+
+```
+Lita: ascii FRIDAY
+  ______ _____  _____ _____      __     __
+ |  ____|  __ \|_   _|  __ \   /\\ \   / /
+ | |__  | |__) | | | | |  | | /  \\ \_/ / 
+ |  __| |  _  /  | | | |  | |/ /\ \\   /  
+ | |    | | \ \ _| |_| |__| / ____ \| |   
+ |_|    |_|  \_\_____|_____/_/    \_\_|   
+                                          
+                                          
+```
 
 ## License
 
