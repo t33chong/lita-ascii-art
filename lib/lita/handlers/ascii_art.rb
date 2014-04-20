@@ -9,6 +9,9 @@ module Lita
         @@art = Artii::Base.new :font => 'big'
 
       def ascii_from_text(response)
+        response.matches.first.each do |c|
+          puts c
+        end
         puts response.matches.first
         puts @@art.asciify(response.matches.first)
         puts %Q[#{@@art.asciify(response.matches.first)}]
