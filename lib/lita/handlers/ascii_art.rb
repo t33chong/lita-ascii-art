@@ -1,3 +1,5 @@
+require "artii"
+
 module Lita
   module Handlers
     class AsciiArt < Handler
