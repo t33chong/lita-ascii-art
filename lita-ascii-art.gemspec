@@ -3,9 +3,9 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.1"
   spec.authors       = ["Tristan Chong"]
   spec.email         = ["tristanchong@gmail.com"]
-  spec.description   = %q{TODO: Add a description}
-  spec.summary       = %q{TODO: Add a summary}
-  spec.homepage      = "TODO: Add a homepage"
+  spec.description   = %q{A Lita handler that generates ASCII art from text.}
+  spec.summary       = %q{A Lita handler that generates ASCII art from text.}
+  spec.homepage      = "https://github.com/tristaneuan/lita-ascii-art"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
@@ -15,6 +15,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "lita", ">= 3.1"
+  spec.add_runtime_dependency "artii", ">= 2.0.4"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
