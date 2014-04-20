@@ -1,6 +1,5 @@
 # lita-ascii-art
 
-TODO: Add a description of the plugin.
 **lita-ascii-art** is a handler for [Lita](https://github.com/jimmycuadra/lita) that generates ASCII art from text.
 
 
