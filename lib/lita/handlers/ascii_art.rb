@@ -13,7 +13,12 @@ module Lita
         response.matches.first.each do |c|
           s += @@art.asciify(c)
         end
-        response.reply s
+        case robot.config.robot.adapter
+        when :slack
+          response.reply "```" + s + "```"
+        else
+          response.reply s
+        end
       end
     end
 
