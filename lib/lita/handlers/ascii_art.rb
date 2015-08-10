@@ -6,19 +6,14 @@ module Lita
       route(/^ascii\s+(.*)/i, :ascii_from_text, command: true, help: {
         t("help.ascii_key") => t("help.ascii_value")})
 
-        @@art = Artii::Base.new :font => 'standard'
+      @@art = Artii::Base.new :font => 'standard'
 
       def ascii_from_text(response)
         s = ''
         response.matches.first.each do |c|
           s += @@art.asciify(c)
         end
-        case robot.config.robot.adapter
-        when :slack
-          response.reply "```" + s + "```"
-        else
-          response.reply s
-        end
+        response.reply render_template("lita-ascii-art", message: s)
       end
     end
 
