@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-ascii-art"
-  spec.version       = "0.0.3"
+  spec.version       = "0.1.0"
   spec.authors       = ["Tristan Chong"]
   spec.email         = ["tristanchong@gmail.com"]
   spec.description   = %q{A Lita handler that generates ASCII art.}
