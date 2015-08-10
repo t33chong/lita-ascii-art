@@ -1,5 +1,8 @@
 # lita-ascii-art
 
+[![Build Status](https://travis-ci.org/tristaneuan/lita-ascii-art.png?branch=master)](https://travis-ci.org/tristaneuan/lita-ascii-art)
+[![Coverage Status](https://coveralls.io/repos/tristaneuan/lita-ascii-art/badge.png)](https://coveralls.io/r/tristaneuan/lita-ascii-art)
+
 **lita-ascii-art** is a handler for [Lita](https://github.com/jimmycuadra/lita) that generates ASCII art from text.
 
 
